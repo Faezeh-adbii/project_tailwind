@@ -16,6 +16,15 @@ module.exports = {
     extend: {
       fontFamily:{
         roboto:'Open Sans ,  sans-serif'
+      },
+      colors:{
+        
+        'graye-violet-20':'#fbf8fd',
+        'gray-violet-500':'#616061',
+        'violet-500':'#7c19a1',
+      },
+      fontSize:{
+        xss:'10px',
       }
     },
   },
