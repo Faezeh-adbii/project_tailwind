@@ -20,12 +20,19 @@ module.exports = {
       colors:{
         
         'graye-violet-20':'#fbf8fd',
+        'graye-violet-50':'#bbb9bb',
+        'gray-violet-200':'#9f9ca0',
         'gray-violet-500':'#616061',
         'violet-500':'#7c19a1',
+        'gray-red-50':'#998080',
       },
       fontSize:{
         xss:'10px',
-      }
+      },
+      spacing:{
+        6.25:'25px',
+        640: '40rem',
+      },
     },
   },
   plugins: [],
