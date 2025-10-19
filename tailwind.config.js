@@ -18,14 +18,16 @@ module.exports = {
         roboto: 'Open Sans ,  sans-serif'
       },
       colors: {
-
+        'gray-violet-10': '#faf8fc',
         'graye-violet-20': '#fbf8fd',
         'graye-violet-50': '#bbb9bb',
         'gray-violet-200': '#9f9ca0',
         'gray-violet-500': '#616061',
+        'gray-violet-600': '#39333c',
         'violet-500': '#7c19a1',
         'gray-red-50': '#998080',
         'gray-red-100': '#5f5757',
+        'purple-red': '#990e35',
       },
       fontSize: {
         xss: '10px',
@@ -39,7 +41,11 @@ module.exports = {
       },
       flex:{
         2:'2 2 0',
-      }
+      },
+      gridTemplateColumns:{
+        "new-arrival":'repeat(auto-fit,minmax(260px,1fr))',
+      },
+    
     },
   },
   plugins: [],
