@@ -37,15 +37,19 @@ module.exports = {
         15: '60px',
         42: '170px',
         640: '40rem',
+        125: '500px',
 
       },
-      flex:{
-        2:'2 2 0',
+      flex: {
+        2: '2 2 0',
       },
-      gridTemplateColumns:{
-        "new-arrival":'repeat(auto-fit,minmax(260px,1fr))',
+      gridTemplateColumns: {
+        "new-arrival": 'repeat(auto-fit,minmax(260px,1fr))',
       },
-    
+      backgroundImage: {
+        commode: "url('../src/images/commode.png')"
+      },
+
     },
   },
   plugins: [],
