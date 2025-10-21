@@ -625,6 +625,21 @@ video {
 .mt-\[96px\] {
   margin-top: 96px;
 }
+.mb-11 {
+  margin-bottom: 2.75rem;
+}
+.mb-\[\] {
+  margin-bottom: ;
+}
+.mb-\[3\.5\] {
+  margin-bottom: 3.5;
+}
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+.mb-3\.5 {
+  margin-bottom: 0.875rem;
+}
 .block {
   display: block;
 }
@@ -699,6 +714,14 @@ video {
   --tw-translate-y: 1.5rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+.rotate-45 {
+  --tw-rotate: 45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.-rotate-45 {
+  --tw-rotate: -45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
 .scale-0 {
   --tw-scale-x: 0;
   --tw-scale-y: 0;
@@ -721,6 +744,9 @@ video {
 }
 .grid-cols-new-arrival {
   grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+}
+.grid-cols-footer {
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
 }
 .flex-col {
   flex-direction: column;
@@ -755,11 +781,8 @@ video {
 .gap-y-8 {
   row-gap: 2rem;
 }
-.gap-y-1 {
-  row-gap: 0.25rem;
-}
-.place-self-end {
-  place-self: end;
+.gap-y-4 {
+  row-gap: 1rem;
 }
 .self-start {
   align-self: flex-start;
@@ -978,6 +1001,110 @@ video {
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-\[0_5px\] {
+  --tw-shadow: 0 5px;
+  --tw-shadow-colored: 0 5px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-\[0_5px_15\] {
+  --tw-shadow: 0 5px 15;
+  --tw-shadow-colored: 0 5px 15 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-\[0_5px_15px\] {
+  --tw-shadow: 0 5px 15px;
+  --tw-shadow-colored: 0 5px 15px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-\[0_5px_15px_\] {
+  --tw-shadow: 0 5px 15px;
+  --tw-shadow-colored: 0 5px 15px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-\[0_5px_15px_r\] {
+  --tw-shadow: 0 5px 15px r;
+  --tw-shadow-colored: 0 5px 15px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-\[0_5px_15px_rgba\] {
+  --tw-shadow: 0 5px 15px rgba;
+  --tw-shadow-colored: 0 5px 15px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-\[0_5px_15px_rgba\(\)\] {
+  --tw-shadow: 0 5px 15px rgba();
+  --tw-shadow-colored: 0 5px 15px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-\[0_5px_15px_rgba\(0\)\] {
+  --tw-shadow: 0 5px 15px rgba(0);
+  --tw-shadow-colored: 0 5px 15px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-\[0_5px_15px_rgba\(0\2c 0\2c 0\)\] {
+  --tw-shadow: 0 5px 15px rgba(0,0,0);
+  --tw-shadow-colored: 0 5px 15px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-\[0_5px_15px_rgba\(0\2c 0\2c 0\2c 0\)\] {
+  --tw-shadow: 0 5px 15px rgba(0,0,0,0);
+  --tw-shadow-colored: 0 5px 15px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-\[0_5px_15px_rgba\(0\2c 0\2c 0\2c 0\2c 0\.2\)\] {
+  --tw-shadow: 0 5px 15px rgba(0,0,0,0,0.2);
+  --tw-shadow-colored: 0 5px 15px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-\[0_5px_\] {
+  --tw-shadow: 0 5px;
+  --tw-shadow-colored: 0 5px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-\[0_5px_15px_rgba\(0\2c 0\2c 0\2c 0\.2\)\] {
+  --tw-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  --tw-shadow-colored: 0 5px 15px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-\[0_5px_15px_rgba\(0\2c 0\2c 0\2c 0\.\)\] {
+  --tw-shadow: 0 5px 15px rgba(0,0,0,0.);
+  --tw-shadow-colored: 0 5px 15px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-\[0_5px_15px_rgba\(0\2c 0\2c 0\2c 0\.4\)\] {
+  --tw-shadow: 0 5px 15px rgba(0,0,0,0.4);
+  --tw-shadow-colored: 0 5px 15px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-\[\] {
+  --tw-shadow-color: ;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+.shadow-\[0\] {
+  --tw-shadow-color: 0;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+.shadow-\[0_\] {
+  --tw-shadow-color: 0;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+.shadow-\[0\2c 0\] {
+  --tw-shadow-color: 0,0;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+.shadow-\[0\2c \] {
+  --tw-shadow-color: 0,;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+.shadow-\[0\2c 5px\2c 15px\2c \] {
+  --tw-shadow-color: 0,5px,15px,;
+  --tw-shadow: var(--tw-shadow-colored);
+}
 .drop-shadow {
   --tw-drop-shadow: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -1030,6 +1157,16 @@ video {
   background-color: rgb(97 96 97 / var(--tw-bg-opacity, 1));
 }
 
+.hover\:translate-x-2:hover {
+  --tw-translate-x: 0.5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:translate-x-3:hover {
+  --tw-translate-x: 0.75rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .hover\:bg-\[\#eaecef\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(234 236 239 / var(--tw-bg-opacity, 1));
@@ -1053,6 +1190,17 @@ video {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-gray-violet-500:hover {
+  --tw-text-opacity: 1;
+  color: rgb(97 96 97 / var(--tw-text-opacity, 1));
+}
+
+.hover\:shadow-\[0_5px_15px_rgba\(0\2c 0\2c 0\2c 0\.4\)\]:hover {
+  --tw-shadow: 0 5px 15px rgba(0,0,0,0.4);
+  --tw-shadow-colored: 0 5px 15px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .group:hover .group-hover\:bottom-0 {

@@ -52,6 +52,7 @@ module.exports = {
         "feature-product": 'repeat(auto-fit,minmax(270px,1fr))',
         "blog": 'repeat(auto-fit,minmax(360px,1fr))',
         "brand": 'repeat(auto-fit,minmax(220px,1fr))',
+        "footer": 'repeat(auto-fit,minmax(300px,1fr))',
       },
       backgroundImage: {
         commode: "url('../src/images/commode.png')"
